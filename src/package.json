@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/MorpheusNephew/DailyBudgetEmail/issues"
   },
-  "homepage": "https://github.com/MorpheusNephew/DailyBudgetEmail#readme"
+  "homepage": "https://github.com/MorpheusNephew/DailyBudgetEmail#readme",
+  "dependencies": {
+    "ynab": "^1.17.0"
+  }
 }
