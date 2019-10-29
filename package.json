@@ -1,0 +1,24 @@
+{
+  "name": "daily-budget-email",
+  "version": "1.0.0",
+  "description": "An app that uses You Need A Budget (YNAB) to send a daily email of the previous day's expenses.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MorpheusNephew/DailyBudgetEmail.git"
+  },
+  "keywords": [
+    "Budget",
+    "YNAB",
+    "Email"
+  ],
+  "author": "Jelani Jackson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MorpheusNephew/DailyBudgetEmail/issues"
+  },
+  "homepage": "https://github.com/MorpheusNephew/DailyBudgetEmail#readme"
+}
