@@ -2,9 +2,11 @@
   "name": "daily-budget-email",
   "version": "1.0.0",
   "description": "An app that uses You Need A Budget (YNAB) to send a daily email of the previous day's expenses.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "./node_modules/.bin/babel src -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build ; node dist/index.js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +27,11 @@
     "ynab": "^1.17.0"
   },
   "devDependencies": {
-    "babel-core": "^6.26.3"
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
   }
 }
