@@ -1,7 +1,7 @@
 {
-  "name": "daily-budget-email",
+  "name": "weekly-budget-email",
   "version": "1.0.0",
-  "description": "An app that uses You Need A Budget (YNAB) to send a daily email of the previous day's expenses.",
+  "description": "An app that uses You Need A Budget (YNAB) to send a weekly email of the previous day's expenses.",
   "main": "dist/index.js",
   "scripts": {
     "build": "./node_modules/.bin/babel src -d dist",
