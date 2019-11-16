@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/MorpheusNephew/DailyBudgetEmail#readme",
   "dependencies": {
+    "moment": "^2.24.0",
     "ynab": "^1.17.0"
   },
   "devDependencies": {
