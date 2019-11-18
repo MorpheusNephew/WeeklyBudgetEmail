@@ -1,6 +1,11 @@
-const four = 4;
-const five = 5;
+import { ynab } from './client_libraries';
 
-const add = (first, second) => first + second;
-
-console.log(`${four} + ${five} = ${add(four, five)}`);
+ynab.getBudgets()
+    .then(response => {
+        const budget = response.data.budgets[0];
+        
+        ynab.getTransactionsFromLastWeek(budget.id)
+            .then(response => {
+                console.log(response.data.transactions);
+            });
+    })
