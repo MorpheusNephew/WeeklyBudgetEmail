@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MorpheusNephew/DailyBudgetEmail.git"
+    "url": "git+https://github.com/MorpheusNephew/WeeklyBudgetEmail.git"
   },
   "keywords": [
     "Budget",
@@ -20,9 +20,9 @@
   "author": "Jelani Jackson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MorpheusNephew/DailyBudgetEmail/issues"
+    "url": "https://github.com/MorpheusNephew/WeeklyBudgetEmail/issues"
   },
-  "homepage": "https://github.com/MorpheusNephew/DailyBudgetEmail#readme",
+  "homepage": "https://github.com/MorpheusNephew/WeeklyBudgetEmail#readme",
   "dependencies": {
     "moment": "^2.24.0",
     "ynab": "^1.17.0"
