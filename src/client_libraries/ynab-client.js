@@ -8,11 +8,11 @@ export const getBudgets = () => {
     return ynabApi.budgets.getBudgets();
 }
 
-export const getTransactions = (budgetId, since_date = null) => {
+export const getTransactions = (budgetId = 'last-used', since_date = null) => {
     return ynabApi.transactions.getTransactions(budgetId, since_date);
 }
 
-export const getTransactionsFromLastWeek = (budgetId) => {
+export const getTransactionsFromLastWeek = (budgetId = 'last-used') => {
     // use moment client to get date range of last week
     const [lastSunday, lastSaturday] = getLastWeekRange();
 
