@@ -1,0 +1,10 @@
+{
+    "eslint.lintTask.enable": true,
+    "eslint.options": {
+        "configFile": "./.eslintrc.js"
+    },
+    "eslint.alwaysShowStatus": true,
+    "eslint.autoFixOnSave": true,
+    "eslint.lintTask.options": "src",
+    "eslint.run": "onSave"
+}
